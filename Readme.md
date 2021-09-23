@@ -1,1 +1,1 @@
-$ docker run --rm -ti --privileged --net=host --pid=host iotop
+$ docker run --rm -it --privileged --net=host --pid=host iotop
