@@ -1,5 +1,4 @@
 FROM ubuntu:bionic
-RUN apt update
-RUN apt install iotop
-
-CMD ["iotop -a"]
+RUN apt update -y
+RUN apt install iotop -y
+ENTRYPOINT ["iotop"]
